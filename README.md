@@ -21,7 +21,6 @@
 13. [Cloud Computing Demonstration & Concepts](#13-cloud-computing-demonstration--concepts)
 14. [Security Implementation](#14-security-implementation)
 15. [Testing Suite](#15-testing-suite)
-16. [College Viva Examination Q&A Guide](#16-college-viva-examination-qa-guide)
 
 ---
 
@@ -264,17 +263,4 @@ npm test
 Verifies static serving, 404 routing, DB disconnection fallbacks, session authorization, password hashing, and capacity restrictions.
 
 ---
-
-## 16. College Viva Examination Q&A Guide
-
-### Q1: Why did you use MongoDB Atlas instead of MySQL/PostgreSQL?
-> **Answer**: MongoDB Atlas provides a managed cloud NoSQL database that easily handles dynamic event attributes (custom rules, requirements, Cloudinary image links) and allows multi-instance PaaS deployments without managing local database hardware.
-
-### Q2: How does the QR Code attendance system work?
-> **Answer**: Each registration generates a unique QR code DataURL containing the Registration ObjectId. When an organizer scans or enters the code, the backend verifies registration existence, checks student enrollment, marks attendance, and prevents duplicate check-ins.
-
-### Q3: How are certificates issued?
-> **Answer**: PDFKit dynamically generates an official PDF certificate stream containing the student's name, event title, date, and unique certificate ID only after verified event attendance.
-
----
-**College Event Hub** — Built for Cloud Computing project presentation & viva.
+**College Event Hub** — Centralized Campus Event Management System.
