@@ -1,24 +1,23 @@
 # Deployment Guide: GitHub & Render
 
-This guide provides step-by-step instructions for uploading **College Event Hub** to GitHub (`ayushverm1903`) and deploying it live on **Render**.
+This guide provides step-by-step instructions for uploading **College Event Hub** to GitHub (`ayushverma1903`) and deploying it live on **Render**.
 
 ---
 
-## Part 1: Push Code to GitHub (`ayushverm1903`)
+## Part 1: Push Code to GitHub (`ayushverma1903`)
 
 ### Step 1: Create a GitHub Repository
 1. Open your browser and go to: [https://github.com/new](https://github.com/new)
-2. **Repository name**: `college-event-hub` (or your preferred name)
+2. **Repository name**: `college-event-hub`
 3. Set visibility to **Public** or **Private** as desired.
-4. **Do NOT** initialize with a README, `.gitignore`, or license (the project already includes these).
-5. Click **Create repository**.
+4. Click **Create repository**.
 
 ### Step 2: Push Local Code to GitHub
 Open PowerShell / Terminal in your project directory (`d:\project\collegeeventhub\collegeeventhub`) and run:
 
 ```bash
 # 1. Ensure remote URL is configured to your repository
-git remote set-url origin https://github.com/ayushverm1903/college-event-hub.git
+git remote set-url origin https://github.com/ayushverma1903/college-event-hub.git
 
 # 2. Push to main branch
 git push -u origin main
